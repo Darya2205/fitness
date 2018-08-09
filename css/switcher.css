@@ -1,0 +1,51 @@
+.switcher{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 55px;
+}
+
+.switcher__title{
+    display: inline-block;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+.switcher__pages{
+    padding-left: 5px;
+}
+
+.switcher__page{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.switcher__link{
+    padding: 4px 8px;
+    color: black; 
+}
+
+.switcher__link-activ{
+    background-color: rgb(40, 36, 62);
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.switcher__paginator{
+    display: inline-block;
+}
+
+.switcher__prev, .switcher__next{
+    display: inline-block;
+    padding: 0 7px;
+}
+
+.switcher__prev{
+    opacity: 0.5;
+}
+
+.switcher__switch{
+    width: 5px;
+    height: 9px;
+}

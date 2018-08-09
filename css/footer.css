@@ -1,0 +1,66 @@
+.footer{
+    background-color: rgb(19, 20, 21);
+}
+
+.container-footer{
+    position: relative;
+}
+
+.copy{
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.socials{
+    color: aliceblue;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+   float: right;
+  margin-top: 15px;
+}
+
+.socials__list{
+    display: inline-block;
+    clear: both;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.socials__list-item{
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+.footer__logo{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 160px;
+    height: 20px;
+
+.socials__link{      /*Свойства круглой обертки для картинки*/   
+    background-color: rgb(250, 246, 242);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.socials__link--activ {
+    background-color: rgb(255, 145, 0);
+}
+
+.socials__images{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
