@@ -1,38 +1,39 @@
+.container--news{
+    min-height: 685px;
+    display: flex;
+}
+
 .last-news{
-    float: left;
-    width: 85%;
-    box-sizing: border-box;
+    flex: 6;
+    margin-left: auto;
     
 }
 
 .last-news__items{
-    margin-left: 0;
+    display: flex;
+    flex-direction: column;
     padding-left: 0;
-    margin-bottom: 0;
+
 }
 
 .last-news__item{
     list-style-type: none;
 }
 
-.last-news__wrap-images{
-    display: inline-block;
-    float: left;
+.last-news__link{
+    color: black;
     
 }
 
-.last-news__link{
-    color: black;
-
-}
-
 .last-news__wrap-images{
+    display: inline-block;
+    float: left;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
     width: 160px;
     height: 160px;
-    margin: 0 20px 65px 0;
+    margin: 0 20px 55px 0;
    
 }
 
@@ -57,14 +58,13 @@
 .last-news__text{
     line-height: 1.5;
     font-size: 18px;
-    margin: 0;
-    padding-right:30px; 
+    padding-right:30px;  
 }
 
 .sidebar{
-    overflow: hidden;
-    margin-top: 35px;
-    
+    /* overflow: hidden;
+    margin-top: 35px; */
+    flex: 1;
 }
 .sidebar__title, .sidebar__month{
     font-size: 12px;
@@ -89,10 +89,12 @@
 
 .sidebar__list{
     padding-left: 0;
+display: flex;
+flex-direction: column;
 
 }
 
 .sidebar__item{
     list-style-type: none;
-    margin:20px 0; 
+    margin: 10px 0; 
 }
