@@ -1,6 +1,11 @@
+.container--banner{
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .banner__image{
-    display: block;
-    margin: auto;
-    padding-top: 70px;
-   margin-bottom: 50px;
+    padding: 60px;
 }

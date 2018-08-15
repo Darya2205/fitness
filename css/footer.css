@@ -42,8 +42,9 @@
     left: 40%;
     width: 160px;
     height: 20px;
-
-.socials__link{      /*Свойства круглой обертки для картинки*/   
+}
+    /*Свойства круглой обертки для картинки*/ 
+.socials__link{        
     background-color: rgb(250, 246, 242);
     border-radius: 50%;
     width: 20px;
