@@ -6,7 +6,8 @@
 .features__list{
     color: rgb(254, 254, 254);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex: 0.6;
 }
 
 .container--features{
@@ -18,7 +19,7 @@
 
 .features__item{
     list-style-type: none;
-    
+    flex: 0.25;
 }
 
 .features__wrap{
@@ -55,10 +56,11 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
+    text-align: center;
 }
 
 .features__little-list{
-    padding-left: 15px;
+    padding-left: 50px;
 }
 
 .fearures__little-item{
@@ -67,4 +69,5 @@
     font-weight: 300;
     font-size: 18px;
     list-style-type: disc;
+    
 }
