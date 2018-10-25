@@ -1,0 +1,51 @@
+.title--partners{
+    margin: 1.3em;
+}
+
+
+.container__partners{
+    /* margin: 0 100px; */
+    padding: 0 200px;
+}
+
+.partners__group{
+    display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.partners__logo{
+    height: 100px;
+    width: 200px;
+    list-style-type: none;
+    display: inline;
+    margin: 0 50px;
+    /* text-align: center;
+    vertical-align: middle; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100%);
+    transition: .2s;
+    
+}
+
+.partners__logo:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+    
+}
+
+/* .partners__arni{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.partners__athletics{
+    display: flex;
+    justify-content: flex-start; 
+} */
+
