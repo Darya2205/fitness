@@ -43,10 +43,6 @@
     color: rgb(253, 253, 253);
 
 }
-
-.info{
-    
-}
 .info__phone{
     color:rgb(253, 253, 253);
     font-size: 21px;
@@ -65,3 +61,6 @@
 
 }
 
+.comments--header{
+    margin-bottom: 40px;
+}

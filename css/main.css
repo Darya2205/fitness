@@ -7,6 +7,13 @@
 @import 'news.css';
 @import 'switcher.css';
 @import 'footer.css';
+@import 'comments.css';
+@import 'comp-serv.css';
+@import 'review.css';
+@import 'amenities.css';
+@import 'partners.css';
+@import 'intro.css';
+
 
 body{
     margin:0;
@@ -15,17 +22,22 @@ body{
 }
 
 .title{
-    font-size: 49px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    font-size: 49px;
     letter-spacing: 1.5px;
     
+}
+.title--news{
+    text-align: center;
+    padding: 25px 0;
 }
 
 .title--features{
     color: rgb(254, 254, 254);
+    text-align: center;
 
     /* margin-top: 0; */
     margin-bottom: 60px;
@@ -33,6 +45,7 @@ body{
     
 }
 
-.title--news{
-    padding: 25px 0;
+.title--comments{
+   text-align: left; 
+    margin-left: 95px;
 }

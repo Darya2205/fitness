@@ -1,0 +1,147 @@
+.review{
+    margin-bottom: 70px;
+}
+
+.review__container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.feedback{
+    background-color: rgb(245, 245, 245);
+    /* min-width: 700px; */
+    /* min-height: 430px; */
+    padding: 40px 70px;
+}
+
+.feedback__block{
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.feedback__block:last-child{
+    margin-right: 0;
+}
+
+.feedback__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 49px;
+    margin: 0 0 15px 0;
+}
+
+.feedback__block-input-pad{
+}
+
+.feedback__row{
+    display: flex;
+    justify-content: center;
+}
+
+.feedback__block-input{
+    outline: none;
+    height: 45px;
+    width: 270px;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    color: rgb(185, 185, 185);
+}
+
+.feedback__block-input:focus{
+    border: 1px solid #ff9f00;
+}
+
+.feedback__block-input-text{
+    min-height: 75px;
+    width: 560px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.feedback__block-title{
+    padding-bottom: 10px;
+}
+
+/* Кнопки */
+
+
+.feedback__buttons{
+    display: flex;
+}
+
+.feedback__choose{
+    flex: 1;
+}
+
+.feedback__choose-title{
+    padding-bottom: 10px;
+}
+
+.feedback__choose-buttons{
+
+}
+
+.feedback__choose-block{
+   position: relative; 
+   cursor: pointer;
+}
+
+.feedback__choose-radio{
+    position: absolute;
+    left: -9999px;
+}
+
+.feedback__choose-radio:checked + .feedback__fake-radio{
+    border: 1px solid #f58b00;
+    
+}
+
+.feedback__choose-radio:checked + .feedback__fake-radio::after{
+    width: 6px;
+    height: 6px;
+    background: #f58b00;
+    border-radius: 50%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+
+.feedback__fake-radio{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #696565;
+    background: #d4d2d2;
+    display: inline-block;
+    vertical-align: middle;
+}
+.feedback__choose-desc{
+            
+}
+.feedback__fake-radio:active{
+    
+}
+.feedback__choose-radio{
+} 
+
+.feedback__choose-send{
+    width: 125px;
+    height: 45px;
+    background: rgb(27, 31, 29);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback__choose-title-but{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d4d2d2;
+    letter-spacing: 1px;
+    padding: 0;
+}
